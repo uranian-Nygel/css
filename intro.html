@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSSt</title>
+    <link rel="stylesheet" href="intro.css">
   </head>
   <body>
     <h1>css - cascading style sheets</h1>
@@ -50,16 +51,34 @@
             <h3>
                 inline css
             </h3>
-            <p></p>
+            <p style="color: aqua;">We use the sytle attribute on ndividual elements.(codeis less reusable
+                and make maintainig the application difficult)</p>
         </li>
         <li>
             <h3>internal css</h3>
-            <p></p>
+            <p>using the sytle element .(Doing styles within the same file as structures is is not recommended 
+                styles also won't be shared to other html pages)</p>
         </li>
         <li>
             <h3>external css(recommended)</h3>
-            <p></p>
+            <p>Using a different file (.css) linked to html page using the link element
+            usually placed in the head of the html page 
+            </p>
         </li>
     </ul>
+    <style>
+        p{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <!--
+    discuss these terms in css context (use code examples if the possible)
+    1.cascading 
+    2.inheritance
+    3.specificify
+
+    (all these help the browser to decide which style to use )
+    -->
   </body>
 </html>
